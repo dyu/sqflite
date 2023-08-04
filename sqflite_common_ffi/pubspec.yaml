@@ -9,7 +9,11 @@ environment:
   sdk: '>=2.18.0 <4.0.0'
 
 dependencies:
-  sqlite3: '>=1.11.0 <3.0.0'
+  sqlite3:
+    git:
+      url: https://github.com/dyu/sqlite3.dart
+      path: sqlite3
+      ref: master
   sqflite_common: '>=2.4.5-2 <4.0.0'
   synchronized: '>=3.0.0 <5.0.0'
   path: '>=1.8.0 <3.0.0'
