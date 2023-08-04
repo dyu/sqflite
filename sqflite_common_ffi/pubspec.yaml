@@ -13,7 +13,7 @@ dependencies:
     git:
       url: https://github.com/dyu/sqlite3.dart
       path: sqlite3
-      ref: v1.11.x
+      ref: sqlcipher
   sqflite_common: '>=2.4.5-2 <4.0.0'
   synchronized: '>=3.0.0 <5.0.0'
   path: '>=1.8.0 <3.0.0'
